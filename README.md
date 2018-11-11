@@ -1,5 +1,14 @@
-Ruby Version 2.4.1
+# Blog
 
-Rails Version 5.0.2
+Intro to rails blog.
 
-SQLite3 Version 3.16.0
+## Installation
+
+```
+git clone https://github.com/mkhira2/blog.git
+cd blog
+bundle install (this may take a while)
+rails server
+```
+
+localhost:3000 will open automatically in the browser
