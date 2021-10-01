@@ -5,13 +5,21 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'activerecord', '>= 5.2.4.5'
+gem 'websocket-extensions', '>= 0.1.5'
+gem 'activesupport', '>= 5.2.4.3'
+gem 'actionpack', '>= 5.2.4.6'
+gem 'rake', '>= 12.3.3'
+gem 'rack', '>= 2.1.4'
+gem 'loofah', '>= 2.3.1'
+gem 'actionview', '>= 5.2.4.3'
+gem 'nokogiri', '>= 1.12.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 4.3.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
